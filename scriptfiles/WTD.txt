@@ -1,0 +1,46 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// On top of script:
+new Text:Textdraw0;
+new Text:Textdraw1;
+new Text:Textdraw2;
+
+// In OnGameModeInit prefferably, we procced to create our textdraws:
+Textdraw0 = TextDrawCreate(553.000000, 239.000000, "Top Killers~n~~n~Spoker - ~g~31~w~ / ~r~12~w~~n~Spoki - ~g~28~w~ / ~r~21~n~~w~~h~Testi - ~g~14~w~ / ~r~24");
+TextDrawAlignment(Textdraw0, 2);
+TextDrawBackgroundColor(Textdraw0, 100);
+TextDrawFont(Textdraw0, 1);
+TextDrawLetterSize(Textdraw0, 0.279998, 1.399999);
+TextDrawColor(Textdraw0, -1);
+TextDrawSetOutline(Textdraw0, 1);
+TextDrawSetProportional(Textdraw0, 1);
+TextDrawSetSelectable(Textdraw0, 0);
+
+Textdraw1 = TextDrawCreate(488.000000, 221.000000, "_");
+TextDrawBackgroundColor(Textdraw1, 0);
+TextDrawFont(Textdraw1, 5);
+TextDrawLetterSize(Textdraw1, -0.219999, 11.000000);
+TextDrawColor(Textdraw1, -1);
+TextDrawSetOutline(Textdraw1, 0);
+TextDrawSetProportional(Textdraw1, 1);
+TextDrawSetShadow(Textdraw1, 1);
+TextDrawUseBox(Textdraw1, 1);
+TextDrawBoxColor(Textdraw1, 0);
+TextDrawTextSize(Textdraw1, 53.000000, 59.000000);
+TextDrawSetPreviewModel(Textdraw1, 346);
+TextDrawSetPreviewRot(Textdraw1, 0.000000, 20.000000, 150.000000, 1.000000);
+TextDrawSetSelectable(Textdraw1, 0);
+
+Textdraw2 = TextDrawCreate(596.000000, 430.000000, "RPG.BOTTLES.RO");
+TextDrawAlignment(Textdraw2, 2);
+TextDrawBackgroundColor(Textdraw2, 255);
+TextDrawFont(Textdraw2, 1);
+TextDrawLetterSize(Textdraw2, 0.289998, 1.199998);
+TextDrawColor(Textdraw2, -1);
+TextDrawSetOutline(Textdraw2, 0);
+TextDrawSetProportional(Textdraw2, 1);
+TextDrawSetShadow(Textdraw2, 1);
+TextDrawSetSelectable(Textdraw2, 0);
+
+// You can now use TextDrawShowForPlayer(-ForAll), TextDrawHideForPlayer(-ForAll) and
+// TextDrawDestroy functions to show, hide, and destroy the textdraw.
